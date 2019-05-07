@@ -1,0 +1,108 @@
+#body{
+    width: 100%;
+    display: inline-table;
+}
+
+.menu_food_nav{
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    width: 20%;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+    left: -240px;
+    background: #47a3da;
+    display: inline-table;
+    float: left;
+}
+
+
+.menu_food_nav h3 {
+    font-family: 'Days One', sans-serif;
+    color: #afdefa;
+    font-size: 1.9em;
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+    background: #0d77b6;
+}
+
+.menu_food_nav a {
+    font-family: 'Days One', sans-serif;
+    display: block;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.menu_food_nav a:hover {
+    background: #258ecd;
+}
+
+.menu_food_nav a:active {
+    background: #afdefa;
+    color: #47a3da;
+}
+
+.menu_food_nav a {
+    margin: 0;
+    border-bottom: 1px solid #258ecd;
+    padding: 1em;
+}
+
+.div_food_display{
+    width: 70%;
+    height: auto;
+    display: inline-table;
+}
+
+.menu_table {
+    padding-left: 10px;
+    float: left;
+    width: 100%;
+    font-family: 'Days One', sans-serif;
+    display: inline-table;
+    float: right;
+}
+.menu_table_header {
+    color: aliceblue;
+    text-align: center;
+}
+
+
+
+.menu_table_nonheader_td_name {
+    font-size: 24px;
+    text-align: center;
+    padding: 4px;
+}
+
+.menu_table_nonheader_td_ingredients{
+    font-size: 14px;
+    text-align: center;
+    padding: 4px;
+}
+
+.menu_table_nonheader_td_description{
+    font-size: 14px;
+    text-align: center;
+    padding: 4px;
+}
+.menu_table_nonheader_td {
+    font-size: 20px;
+    border: 3px solid #dddddd;
+    text-align: center;
+    padding: 4px;
+}
+.menu_table_header_td {
+    font-size: 30px;
+    font-weight: 300;
+    background: #0d77b6;
+    text-align: center;
+    padding: 4px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
